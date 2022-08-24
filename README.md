@@ -2,15 +2,15 @@
 <p align="center">
 <img
   src="/screen-login.png"
-  width="200">
+  width="400">
 
 <img
   src="/screen-dashboard.png"
-  style="display: inline-block; margin: 0 auto; max-width: 150px">
+  width="400">
 
 <img
   src="/screen-datatable.png"
-  style="display: inline-block; margin: 0 auto; max-width: 150px">
+  width="400">
 </p>
 ## How to install?
     1. Clone the project
