@@ -3,7 +3,6 @@ import { apiCsrfCookie, apiLogin, apiUser } from '../plugins/api';
 import { ref, onBeforeMount } from 'vue'
 import { authUserStore } from '../store/authUser';
 import { useRouter } from 'vue-router'
-import '../plugins/volt.ts'
 import { Notyf } from 'notyf';
 
 let email = ref("")
@@ -116,3 +115,6 @@ function getUser() {
         </section>
     </main>
 </template>
+<style lang="css" scoped>
+@import '../css/volt/volt.css';
+</style>

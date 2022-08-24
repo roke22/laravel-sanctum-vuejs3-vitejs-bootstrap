@@ -57,4 +57,14 @@ export const apiCsrfCookie = () =>
         },
     });
 export const apiUser = () => axios.get(`${APP_URL}/api/user`);
-
+export const apiGetData = (offset: any, limit: any, order: string, sort: string) => 
+    axios.get(`${APP_URL}/api/data`,
+    {
+        params: {
+            offset: offset,
+            limit: limit,
+            order: order,
+            sort: sort
+        }
+    }
+)

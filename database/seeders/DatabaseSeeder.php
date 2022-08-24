@@ -22,5 +22,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'roke22@gmail.com',
             'password' => Hash::make("password")
         ]);
+
+        \App\Models\ExampleTable::factory()->count(100)->create();
     }
 }

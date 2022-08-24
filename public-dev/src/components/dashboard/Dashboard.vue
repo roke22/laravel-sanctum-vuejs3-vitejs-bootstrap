@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import MenuLeft from './MenuLeft.vue';
 import MenuTop from './MenuTop.vue'
-import '../../plugins/volt.ts'
 </script>
 <template>
 <div>
@@ -36,3 +35,6 @@ import '../../plugins/volt.ts'
   </main>
 </div>
 </template>
+<style lang="css" scoped>
+@import '../../css/volt/volt.css';
+</style>

@@ -5,6 +5,7 @@ import PageNotFoundVue from '../components/PageNotFound.vue'
 import DashboardVue from '../components/dashboard/Dashboard.vue'
 import ForgotPasswordVue from '../components/ForgotPassword.vue'
 import ResetPasswordVue from '../components/ResetPassword.vue'
+import DatatableVue from '../components/dashboard/Datatable.vue'
 
 export const router = createRouter({
     history: createWebHistory(),
@@ -13,6 +14,15 @@ export const router = createRouter({
             path: "/", 
             name: "login", 
             component: LoginVue,
+            meta: {
+                auth: false
+            }
+            
+        },
+        {
+            path: "/datatable", 
+            name: "datatable", 
+            component: DatatableVue,
             meta: {
                 auth: false
             }

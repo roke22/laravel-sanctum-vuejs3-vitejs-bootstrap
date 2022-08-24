@@ -15,5 +15,6 @@ export const authUserStore = defineStore({
       logout() {
         this.autenticated = false;
       }
-    }
+    },
+    persist: true,
 })

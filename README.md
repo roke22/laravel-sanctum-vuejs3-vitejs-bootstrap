@@ -10,12 +10,27 @@
     5. In "public-dev" folder run "npm run dev" to start develpment server or 
        "npm run build" to build the frontend in "public" folder
 
+## Structure 
+
+    1. Backend: It is laravel structure but without views, in resource we only have the  
+        email template for "forgot-password"
+    2. Front-end: It is in the "public-dev" folder, the structure is:
+        - public: All static files that will be copy on the "npm run build"
+        - Src: Vuejs 3 app directory with:
+            - assets -> assets
+            - components -> all vuejs components for the app
+            - css -> css files
+            - js -> js files 
+            - plugins -> api endpoints and routes
+            - store -> store definition using pinia
+
 ## Views
 
     - Login
     - Logout
     - Forgot password, this send an email with link for reset the password
     - Reset Password with UUID
+    - Dashboard with datatable example
 
 ## Theme
     Volt theme -> https://demo.themesberg.com/volt/
@@ -30,6 +45,13 @@
     (single page applications), mobile applications, and simple, token based APIs
     
 ## Frontend
+
+## Libraries
+    - linmasahiro/vue3-table-lite -> https://github.com/linmasahiro/vue3-table-lite
+    - Fontawesome -> https://fontawesome.com/
+    - notyf -> https://github.com/caroso1222/notyf
+    - axios -> https://axios-http.com/
+    - and more, you can see on the package.json file
 
 ### Vite https://vitejs.dev/
     Development environment that allows us to see the changes we make in the frontend in real time,
@@ -103,11 +125,26 @@
     5. En la carpeta "public-dev" ejecuta "npm run dev" para levantar el servidor 
        de desarrollo o "npm run build" para hacer el build en la carpeta raiz "public" 
 
+## Estructura 
+
+    1. Backend: Es un laravel pero sin vistas, en "resource" solo tenemos el email  
+        que se usa para la funcionalidad de olvide mi contraseña  
+    2. Front-end: Esta en la carpeta "public-dev", la estructura es:
+        - public: Todos los ficheros estaticos que se copiaran con el comando "npm run build"
+        - Src: Directorio de la app Vuejs 3 con:
+            - assets -> assets
+            - components -> Todos los componentes Vuejs para la app
+            - css -> Ficheros css
+            - js -> Ficheros js
+            - plugins -> Endpoints del api y las rutas usadas
+            - store -> Definicion del store utilizando pinia
+            
 ## Vistas
     - Login
     - Logout
     - Forgot password, esta vista envia un correo electronico con el link
     - Reset Password con UUID
+    - Dashboard con un ejemplo de datatable
 
 ## Tema
     Volt theme -> https://demo.themesberg.com/volt/
@@ -122,6 +159,13 @@
     gestionar la autenticación
     
 ## Frontend
+
+## Librerias
+    - linmasahiro/vue3-table-lite -> https://github.com/linmasahiro/vue3-table-lite
+    - Fontawesome -> https://fontawesome.com/
+    - notyf -> https://github.com/caroso1222/notyf
+    - axios -> https://axios-http.com/
+    - y mas, puedes verlas en el fichero package.json
 
 ### Vite https://vitejs.dev/
     Entorno de desarrollo que nos permite ver los cambios que hacemos en el frontend en 

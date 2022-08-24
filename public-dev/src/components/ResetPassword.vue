@@ -131,3 +131,6 @@ function recuperar() {
     </main>
 </div>    
 </template>
+<style lang="css" scoped>
+@import '../css/volt/volt.css';
+</style>

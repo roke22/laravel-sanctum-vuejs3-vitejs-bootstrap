@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import { useRouter } from "vue-router";
 import { apiLogout } from "../../plugins/api";
+import {authUserStore} from '../../store/authUser'
+
 
 const router = useRouter()
 function logout() {
     apiLogout().then(function(response) {
+        authUserStore().logout()
         router.push('/')
     })
 }
@@ -21,3 +24,6 @@ function logout() {
       </div>
     </nav>
 </template>
+<style lang="css" scoped>
+@import '../../css/volt/volt.css';
+</style>

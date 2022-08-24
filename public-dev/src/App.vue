@@ -9,3 +9,7 @@
     <router-view></router-view>
   </div>
 </template>
+<style>
+@import './css/volt/volt-variables.css';
+@import 'notyf/notyf.min.css';
+</style>
