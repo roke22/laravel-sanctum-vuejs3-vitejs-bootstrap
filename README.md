@@ -2,7 +2,7 @@
 <p align="center">
 <img
   src="/screen-login.png"
-  style="display: inline-block; margin: 0 auto; max-width: 150px">
+  width="200">
 
 <img
   src="/screen-dashboard.png"
