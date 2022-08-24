@@ -1,5 +1,17 @@
 # Laravel 9 + Sanctum + Vuejs 3 + TS + Vite + Bootstrap 5
 
+<img
+  src="/screen-login.png"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+<img
+  src="/screen-dashboard.png"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+<img
+  src="/screen-login.png"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 ## How to install?
     1. Clone the project
     2. In root folder run "composer install"
