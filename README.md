@@ -9,7 +9,7 @@
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <img
-  src="/screen-login.png"
+  src="/screen-datatable.png"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## How to install?
