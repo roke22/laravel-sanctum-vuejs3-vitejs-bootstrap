@@ -2,16 +2,19 @@
 <p align="center">
 <img
   src="/screen-login.png"
-  width="400">
-
+  width="500">
+</p>
+<p align="center">
 <img
   src="/screen-dashboard.png"
-  width="400">
-
+  width="500">
+</p>
+<p align="center">
 <img
   src="/screen-datatable.png"
-  width="400">
+  width="500">
 </p>
+
 ## How to install?
     1. Clone the project
     2. In root folder run "composer install"
