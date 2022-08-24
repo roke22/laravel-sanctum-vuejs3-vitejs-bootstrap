@@ -22,7 +22,6 @@ const notyf = new Notyf({
 
 onBeforeMount(() => {
     // Set csrf Cookie
-    console.log("onMounted")
     apiCsrfCookie().then(function (response) {
         getUser()
     })

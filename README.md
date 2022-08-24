@@ -4,7 +4,10 @@
     1. Clone the project
     2. In root folder run "composer install"
     3. In "public-dev" folder run "npm install"
-    4. In "public-dev" folder run "npm run dev" to start develpment server or 
+    4. In "public-dev" folder run "npm run build" to copy all files so backend request works,  
+        that request goes to laravel and not to vite server. Very important for 404 errors on  
+        backend request.
+    5. In "public-dev" folder run "npm run dev" to start develpment server or 
        "npm run build" to build the frontend in "public" folder
 
 ## Views
@@ -94,7 +97,10 @@
     1. Clona el proyecto
     2. En el directorio raiz ejecuta "composer install"
     3. En la carpeta "public-dev" ejecuta "npm install"
-    4. En la carpeta "public-dev" ejecuta "npm run dev" para levantar el servidor 
+    4. En la carpeta "public-dev" ejecuta "npm run build" para copiar los ficheros,  
+        las peticiones al backend van por laravel y no funcionaran. Muy importante 
+        para los errores 404 de peticiones que se hagan al backend.
+    5. En la carpeta "public-dev" ejecuta "npm run dev" para levantar el servidor 
        de desarrollo o "npm run build" para hacer el build en la carpeta raiz "public" 
 
 ## Vistas

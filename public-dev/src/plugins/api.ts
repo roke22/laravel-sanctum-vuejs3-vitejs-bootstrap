@@ -1,5 +1,4 @@
 import axios from "axios";
-import ResetPasswordVue from "../components/ResetPassword.vue";
 
 axios.defaults.withCredentials = true;
 axios.defaults.xsrfCookieName = "XSRF-TOKEN";
